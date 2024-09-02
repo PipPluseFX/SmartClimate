@@ -1,5 +1,6 @@
 /*-------------------------For small screen devices----------------------*/
 @media only screen and (max-width:1440px) {
+  
     .header h1 {
       font-size: 4.2rem;
       color: var(--color-white);
@@ -62,6 +63,19 @@ main .about-us img {
 }
 #header2 {
   font-size: 2.4rem;
+}
+.news-box .news section .two{
+  background: linear-gradient(rgba(0, 0, 0, 0.201),rgba(0, 0, 0, 0.291)), url(images/prediction.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+
+}
+.news-box .news section .three{
+  background: linear-gradient(rgba(0, 0, 0, 0.201),rgba(0, 0, 0, 0.291)), url(images/Rectangle\ 27.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
 }
   }
   
@@ -162,6 +176,19 @@ main .img-grid div img {
   width: 100%;
 }
 /* SIGN UP AND SIGN IN END */
+.news-box .news section .two{
+  background: linear-gradient(rgba(0, 0, 0, 0.201),rgba(0, 0, 0, 0.291)), url(images/prediction.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+
+}
+.news-box .news section .three{
+  background: linear-gradient(rgba(0, 0, 0, 0.201),rgba(0, 0, 0, 0.291)), url(images/Rectangle\ 27.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
   }
   
   
@@ -299,7 +326,7 @@ main .percent div {
     }
     .side-bar{
       width: 25rem;
-      height: 100vh;
+      height: 96vh;
       box-shadow: 10px 0 10px rgba(0, 0, 0, 0.1);
       display: flex;
       flex-direction: column;
@@ -311,7 +338,6 @@ main .percent div {
       overflow: clip;
       transform: translate(-100%);
       transition: 1s;
-      padding-bottom: 5%;
   }
   .show-sideBar{
       transform: translate(0);
@@ -1077,6 +1103,10 @@ main .about-us div a {
   margin-top: 4rem;
   margin-bottom: 2rem;
 }
+.numbers h1 {
+  font-size: 2rem;
+  margin-bottom: 0.4rem;
+}
   }
   
   
@@ -1088,7 +1118,7 @@ main .about-us div a {
 
     .header h1 {
       font-size: 2.2rem;
-      line-height: 2.7rem;
+      line-height: 2.5rem;
       margin-top: 10px;
   }
   .header p{
@@ -1117,6 +1147,14 @@ main .about-us div a {
 
 .video h1{
   font-size: 2.2rem;
+}
+
+.other-signin {
+  margin-top: 1rem;
+}
+.signup .create-acc {
+  align-self: center;
+  margin-top: 1.2rem;
 }
   }
 
